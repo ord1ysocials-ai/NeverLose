@@ -1,19 +1,19 @@
-# Neverlose UI Document
-This UI isn't official port to roblox from neverlose.cc.
+# Luxe UI Document
+This UI isn't official port to roblox from Luxe.cc.
 The source code is ready for obfuscate using Luraph.
 
 ## Using Library
 ```lua
-local NeverLose = loadstring(game:HttpGet("https://raw.githubusercontent.com/4lpaca-pin/NeverLose/refs/heads/main/source.luau"))()
+local Luxe = loadstring(game:HttpGet("https://raw.githubusercontent.com/ord1ysocials-ai/NeverLose/refs/heads/main/source.luau"))()
 ```
 For Roblox Game
 ```lua
-local NeverLose = require(script:WaitForChild('PATH_TO_MODULE'));
+local Luxe = require(script:WaitForChild('PATH_TO_MODULE'));
 ```
 
 ## Creating Notification
 ```lua
-local Notification = NeverLose:CreateNotification();
+local Notification = Luxe:CreateNotification();
 ```
 Usage:
 ```lua
@@ -26,7 +26,7 @@ Notification.new({
 
 ## Creating Logger
 ```lua
-local Logging = NeverLose:CreateLogger();
+local Logging = Luxe:CreateLogger();
 ```
 Usage:
 ```lua
@@ -34,7 +34,7 @@ Logging.new("crosshairs",'Hit {PLAYER_NAME} in the neck for 100 damage',15)
 ```
 ## Creating Indicator
 ```lua
-local Indicator = NeverLose:CreateIndicator();
+local Indicator = Luxe:CreateIndicator();
 ```
 Usage:
 ```lua
@@ -62,12 +62,12 @@ HitChance:SetText(<string>)
 
 ## Creating Window
 ```lua
-local Window = NeverLose:CreateWindow({
-		Logo = NeverLose.GlobalLogo,
-		Name = "Neverlose",
+local Window = Luxe:CreateWindow({
+		Logo = Luxe.GlobalLogo,
+		Name = "Luxe",
 		Content = "Counter-Strike 2",
-		Size = NeverLose.Scales.Default,
-		ConfigFolder = "NeverLoseConfigs",
+		Size = Luxe.Scales.Default,
+		ConfigFolder = "LuxeConfigs",
 		Enable3DRenderer = false,
 		Keybind = "Insert"
 });
