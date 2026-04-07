@@ -203,7 +203,7 @@ Luxe.MainColor = Color3.fromRGB(8, 8, 13);
 Luxe.RegisiteryColor = {};
 Luxe.NameRegisitry = {};
 Luxe.IsMosueOverOtherFrame = false;
-Luxe.GlobalLogo = "rbxassetid://120358385035996";
+Luxe.GlobalLogo = "rbxassetid://138069504387071";
 Luxe.ImageColorMapping = "rbxassetid://4155801252";
 
 if getcustomasset then
