@@ -154,7 +154,7 @@ local Luxe = {};
 Luxe.BuiltInRegular = Font.new('rbxasset://LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/BuilderIcons.json',Enum.FontWeight.Regular,Enum.FontStyle.Normal);
 Luxe.BuiltInBold = Font.new('rbxasset://LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/BuilderIcons.json',Enum.FontWeight.Bold,Enum.FontStyle.Normal);
 Luxe.GlobalSignals = {};
-NLuxe.UnloadEnabled = false;
+Luxe.UnloadEnabled = false;
 
 local cloneref: cloneref = cloneref or function(f) return f end;
 local TweenService: TweenService = cloneref(game:GetService('TweenService'));
